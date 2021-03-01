@@ -12,7 +12,7 @@
 
                 <div class="info-actuality">
 
-                    <p class="name">{{ actuality.title }}</p>
+                    <p class="name-actu">{{ actuality.title }}</p>
                     <p class="info-img"><img class="imgActuality" src="{{ vich_uploader_asset(actuality.image, 'file') }}" alt="{{ actuality.title }}" /></p>
                     <p class="content">{{ actuality.content |u.truncate(150, '...', false) }}</p>
                     <p class="date-actu">{{ actuality.createdAt ? actuality.createdAt|date('d-m-Y') : '' }}</p>

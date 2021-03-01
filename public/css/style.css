@@ -341,7 +341,7 @@ h2{
 
 .description {
   margin: 5vh 5vw 5vh 5vw;
-  padding: 3vh 0 3vh 3vw;
+  padding: 3vh 2vw 3vh 2vw;
   font-size: 15px;
   background-color: #D2E8F1;
   height: auto;
@@ -772,16 +772,25 @@ div.info-user:nth-child(1) > div:nth-child(1) > label:nth-child(1), div.info-use
 /* PAGE ACTUALITÉ */
 .container-actuality {
   background-color: #D2E8F1;
-  margin: 6vh 14vw 7vh 14vw;
-  padding: 0.5vh 0 6vh 0;
-  height: 81vh;
+  margin: 10vh 14vw 7vh 14vw;
+  padding: 0.5vh 0 4vh 0;
+  height: 75vh;
 }
 
 .info-actuality {
   border: 3px #1b1b5b solid;
   background-color: #ffffff;
-  margin: 1.2vh 1vw 7vh 1vw;
+  margin: 1.2vh 1vw 8vh 1vw;
 }
+
+.name-actu{
+  text-align: center;
+  color: #1b1b5b;
+  margin-top: 8vh;
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .imgActuality {
   width: 40vw;
   height: 35vh;
@@ -844,7 +853,7 @@ div.info-user:nth-child(1) > div:nth-child(1) > label:nth-child(1), div.info-use
   }
 
   .info-actuality {
-    margin: 0vh 1vw 4vh 1vw;
+    margin: 0vh 1vw -5.5vh 1vw;
   }
 
   .imgActuality {
