@@ -44,7 +44,7 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover, .date a:hover,  .btn-retour a:hover, .btn-new a:hover, .btn-list a:hover, .btn-register a:hover,  .info-footer a:hover, .btn-comment a:hover, .btn-return-show a:hover, .btn-actu a:hover, .btn-actu-show:hover {
+nav a:hover, .date a:hover,  .btn-retour a:hover, .btn-new a:hover, .btn-list a:hover, .btn-register a:hover,  .info-footer a:hover, .btn-comment a:hover, .btn-return-show a:hover, .btn-actu a:hover, .btn-actu-show:hover, .btn-retour-actu a:hover {
   color: #191970;
   border-bottom: 2px solid #191970; 
 }
@@ -368,7 +368,7 @@ h2{
   margin-top: 10vh;
 }
 
-.btn-retour a, .btn-return-show a {
+.btn-retour a, .btn-return-show a, .btn-retour-actu a {
   color: #1b1b5b;
   text-decoration: none;
   font-size: 16px;
@@ -820,6 +820,16 @@ div.info-user:nth-child(1) > div:nth-child(1) > label:nth-child(1), div.info-use
   width: 7vw;
   height: 5vh;
   padding: 2vh 0 0 1vw;
+}
+
+.btn-retour-actu{
+  background-color: #D2E8F1;
+  color: #1b1b5b;
+  width: 13vw;
+  height: 6vh;
+  padding: 2vh 0 0 2vw;
+  margin-left: 1vw;
+  margin-top: 10vh;
 }
 
 .btn-actu-show{
